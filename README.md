@@ -2,7 +2,16 @@
 Module 17 
 
 ## Overview of the analysis:
-The purpose of this analysis is to demonstrate resampling models using machine learning imbalanced-learn and scikit-learn to predit Credit Risk.   The techniques used are RandomOverSampler, SMOTE (Synthetic Minority Oversampling Technique), ClusterCentroids (under sampling), and then SMOTEENN (SMOTE and Edited Nearest Neighbors (ENN)).  Finally Ensemble Classifiers BalancedRandomForestClassifier and EasyEnsembleClassifier are used to predict Credit Risk.
+The purpose of this analysis is to demonstrate resampling models using machine learning imbalanced-learn and scikit-learn to predit Credit Risk.   
+The techniques used are:
+- RandomOverSampler  
+-  SMOTE (Synthetic Minority Oversampling Technique)   
+-  ClusterCentroids (under sampling)   
+-  SMOTEENN (SMOTE and Edited Nearest Neighbors (ENN)).   
+-  Ensemble Classifiers BalancedRandomForestClassifier    
+-  EasyEnsembleClassifier   
+
+The last 2 are used to predict Credit Risk.
 
 ## Results:
 
@@ -67,4 +76,6 @@ The purpose of this analysis is to demonstrate resampling models using machine l
     * Recall    - Low Risk:  0.94
 
 ## Summary:
-The results were generally good.   They show that the Sensitivity (recall) of EasyEnsembleClassifier for both low and High Risk is over .90, a desirable result that is balanced out by the F1 (harmonic mean score of .97 (2(Precision * Sensitivity)/(Precision + Sensitivity)). It can be stated that Bag of balanced boosted learners also known as EasyEnsemble is the most preferred method for the highest accuracy scoring.
+The results were generally good.   They show that the Sensitivity (recall) of EasyEnsembleClassifier for both low and High Risk is over .90, a desirable result with merit  confirmed by the F1 (harmonic mean score of .97 (2(Precision * Sensitivity)/(Precision + Sensitivity)). It can be stated that Bag of balanced boosted learners also known as EasyEnsemble is the most preferred method for the highest accuracy scoring.
+
+*Perhaps Student Loan recipients should be more familiar with these scoring techniques ....*
