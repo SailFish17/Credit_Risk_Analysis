@@ -1,10 +1,8 @@
 # Credit_Risk_Analysis
 Module 17 
 
-Files:  [credit_risk_ensemble.ipynb](credit_risk_ensemble.ipynb)  [credit_risk_resampling.ipynb](credit_risk_resampling.ipynb)  [credit_risk_ensemble.html](Resources/credit_risk_ensemble.html)  [credit_risk_resampling.html](Resources/credit_risk_resampling.html) 
-
 ## Overview of the analysis:
-Explain the purpose of this analysis is to demonstrate resampling models using machine learning imbalanced-learn and scikit-learn to predit Credit Risk, using techniques of RandomOverSampler, SMOTE (Synthetic Minority Oversampling Technique), ClusterCentroids (under sampling), and then SMOTEENN (SMOTE and Edited Nearest Neighbors (ENN)), and then finally Ensemble Classifiers BalancedRandomForestClassifier and EasyEnsembleClassifier to predict Credit Risk
+The purpose of this analysis is to demonstrate resampling models using machine learning imbalanced-learn and scikit-learn to predit Credit Risk.   The techniques used are RandomOverSampler, SMOTE (Synthetic Minority Oversampling Technique), ClusterCentroids (under sampling), and then SMOTEENN (SMOTE and Edited Nearest Neighbors (ENN)).  Finally Ensemble Classifiers BalancedRandomForestClassifier and EasyEnsembleClassifier are used to predict Credit Risk.
 
 ## Results:
 
@@ -69,4 +67,4 @@ Explain the purpose of this analysis is to demonstrate resampling models using m
     * Recall    - Low Risk:  0.94
 
 ## Summary:
-The results show that the Sensitivity (recall) of EasyEnsembleClassifier for both low and High Risk is over .90, which is most desirable and is balanced out by the F1 (harmonic mean score of .97 (2(Precision * Sensitivity)/(Precision + Sensitivity)). Therefore we can best assert that Bag of balanced boosted learners also known as EasyEnsemble is the most preferred method for the highest accuracy scoring
+The results were generally good.   They show that the Sensitivity (recall) of EasyEnsembleClassifier for both low and High Risk is over .90, a desirable result that is balanced out by the F1 (harmonic mean score of .97 (2(Precision * Sensitivity)/(Precision + Sensitivity)). It can be stated that Bag of balanced boosted learners also known as EasyEnsemble is the most preferred method for the highest accuracy scoring.
