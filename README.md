@@ -17,7 +17,7 @@ The last 2 are used to predict Credit Risk.
 
    ### RandomOverSampler
 
-![RandomOverSampler](Resources/RandomOverSampler.JPG)
+![RandomOverSampler](Resources/RandomOverSampler.png)
 
     * Accuracy Score: .644
     * Precision - High Risk: 0.01
