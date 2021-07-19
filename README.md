@@ -27,7 +27,7 @@ The last 2 are used to predict Credit Risk.
 
    ### SMOTE
 
-![SMOTE](Resources/SMOTE.JPG)
+![SMOTE](Resources/SMOTE.png)
 
     * Accuracy Score: .648
     * Precision - High Risk: 0.01
@@ -37,7 +37,7 @@ The last 2 are used to predict Credit Risk.
 
    ### ClusterCentroids
 
-![ClusterCentroids](Resources/ClusterCentroids.JPG)
+![ClusterCentroids](Resources/ClusterCentroids.png)
 
     * Accuracy Score: .510
     * Precision - High Risk: 0.01
@@ -47,7 +47,7 @@ The last 2 are used to predict Credit Risk.
 
    ### SMOTEENN
 
-![SMOTEENN](Resources/SMOTEENN.JPG)
+![SMOTEENN](Resources/SMOTEENN.png)
 
     * Accuracy Score: .636
     * Precision - High Risk: 0.01
@@ -57,7 +57,7 @@ The last 2 are used to predict Credit Risk.
 
    ### BalancedRandomForestClassifer
 
-![BalancedRandomForestClassifer](Resources/BalancedRandomForestClassifer.JPG)
+![BalancedRandomForestClassifer](Resources/BalancedRandomForestClassifer.png)
 
     * Accuracy Score: .788
     * Precision - High Risk: 0.04
@@ -67,7 +67,7 @@ The last 2 are used to predict Credit Risk.
 
    ### EasyEnsembleClassifier
 
-![EasyEnsembleClassifier](Resources/EasyEnsembleClassifier.JPG)
+![EasyEnsembleClassifier](Resources/EasyEnsembleClassifier.png)
 
     * Accuracy Score: .925
     * Precision - High Risk: 0.07
